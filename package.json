@@ -1,0 +1,26 @@
+{
+  "name": "ru-2020-proj-ct-02",
+  "version": "1.0.0",
+  "description": "![MySQL](https://img.shields.io/static/v1?label=SQL&message=MySQL&color=4479a1)\r ![Heroku](https://img.shields.io/static/v1?label=heroku&message=deployed&color=success)\r ![Node.js](https://img.shields.io/static/v1?label=Node.&message=js&color=68a063)\r ![express.js](https://img.shields.io/static/v1?label=express&message=.js&color=68a063)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssjlee93/RU-2020-proj-ct-02.git"
+  },
+  "author": "steve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssjlee93/RU-2020-proj-ct-02/issues"
+  },
+  "homepage": "https://github.com/ssjlee93/RU-2020-proj-ct-02#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lint": "^0.7.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.12"
+  }
+}

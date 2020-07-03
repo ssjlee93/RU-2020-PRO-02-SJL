@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.parallax {
+    opacity: 0.9
+}
+.brand-logo, h1, h3, h4, .header {
+    /* font-family: 'Permanent Marker', cursive; */
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: bold;
+}
+/* .header {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 400;
+} */
+.card-title {
+    font-family: 'Roboto Mono', monospace;
+}
+.card-title {
+    font-weight: 500;
+    font-style: italic;
+}
+
+nav ul a, nav .brand-logo {
+   color: #444;
+}
+ 
+.deleteRoutine {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.editRoutine {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+p {
+    line-height: 2rem;
+}
+ 
+.sidenav-trigger {
+   color: #26a69a;
+}
+ 
+.parallax-container {
+   min-height: 600px;
+   line-height: 0;
+   height: auto;
+   color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+ 
+@media only screen and (max-width : 992px) {
+   .parallax-container .section {
+        position: absolute;
+        top: 40%;
+   }
+   #index-banner .section {
+        top: 10%;
+   }
+}
+ 
+ @media only screen and (max-width : 600px) {
+   #index-banner .section {
+        top: 0;
+    }
+}
+ 
+.icon-block {
+   padding: 0 15px;
+}
+
+.icon-block .material-icons {
+   font-size: inherit;
+}
+ 
+footer.page-footer {
+   margin: 0;
+}
+ 
