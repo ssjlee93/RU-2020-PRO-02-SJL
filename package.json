@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/ssjlee93/RU-2020-proj-ct-02#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "lint": "^0.7.0",
     "mysql2": "^2.1.0",
     "sequelize": "^5.21.12"
